@@ -1,0 +1,57 @@
+*{
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#Board{
+    padding-top: 10px;
+    margin: 10px;
+    border-bottom: 15px solid #a47454;
+    border-left: 10px solid #1a237e;
+    border-right: 10px solid #1a237e ;
+    border-top: 10px solid #1a237e;
+    background-image: url(https://wallpapers.com/images/featured/marineford-war-krxgz4dg2jlvxx68.jpg);
+    background-size: cover;
+}
+
+#RetryButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #2a36b1; /* Red background */
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Hidden by default */
+}
+
+#RetryButton:hover {
+    background-color: #7986cb; /* Darker #afbfff on hover */
+}
+
+#Reload{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    position: fixed;
+    top: 5px;
+    right: 20px;
+}
+
+.title{
+    font-size: 50px;
+    background-color: #283593;
+    border: #7986cb solid 2px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7986cb;
+}
